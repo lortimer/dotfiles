@@ -1,0 +1,78 @@
+graph TD
+
+%%  Huntkey SMD127 https://en.huntkey.com/product/smd127/
+    power[Power Strip]
+
+%%  TP-Link TL-SG105 https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/tl-sg105/
+    networking[Networking Switch]
+
+%%  2x ASUS ProArt Display PA247CV (has USB-C, HDMI, and DP inputs)
+    monitors[Monitors]
+
+%%  Desktop PC, Work Laptop, Client Laptop
+    computers[Computers]
+
+%%  IOGear GUS434 https://support.iogear.com/product/GUS434/
+    usbSwitch[USB-only KVM]
+
+%%  Plugable 7-Port USB 3.0 Hub https://plugable.com/products/usb3-hub7c
+    poweredHub[Powered USB Hub]
+
+%%  Sabrent USB Hub with Individual Switches https://sabrent.com/products/hb-um43
+    switchHub[USB Hub]
+
+%%  Yeti X USB Mic https://www.logitechg.com/en-us/shop/p/yeti-x-professional-microphone
+    mic[Mic]
+
+%%  Logitech C920 https://www.logitech.com/en-ch/shop/p/c920-pro-hd-webcam
+    webcam[Webcam]
+
+%%  Leopold FC900R w/ MX Clear Switches https://mechanicalkeyboards.com/products/leopold-fc900r-dolch-pd
+    keyboard[Keyboard]
+
+%%  Ploopy Adept https://ploopy.co/adept-trackball/
+    trackball[Trackball]
+
+%%  Logitech M500 https://www.logitech.com/en-ch/shop/p/m500s-corded-mouse
+    mouse[Mouse]
+
+%%  Schiit Modius (Discontinued) https://www.schiit.com/news/news/introducing-modius
+    dac[DAC]
+
+%%  Schiit Jotunheim https://www.schiit.com/products/jotunheim-1
+    amp[Amp]
+
+%%  Audeze LCD-X https://www.audeze.com/products/lcd-x
+    headphones[Headphones]
+
+%%  Edifier M1360 https://www.edifier.com/global/p/computer-speakers/m1360
+    speaker[Speakers]
+    
+    computers --- power
+    power --- monitors
+    poweredHub --- power
+    amp --- power
+    power --- networking
+    speaker --- power
+    
+    networking --- computers
+    
+    monitors --- computers
+    
+    computers ---- usbSwitch
+    computers ---- usbSwitch
+    computers ---- usbSwitch
+    
+    usbSwitch --- poweredHub
+    poweredHub --- switchHub
+    poweredHub --- keyboard
+    poweredHub --- trackball
+    poweredHub --- mouse
+    poweredHub --- dac
+    
+    switchHub ---- webcam
+    switchHub ---- mic
+    
+    dac --- amp
+    amp --- headphones
+    amp --- speaker
