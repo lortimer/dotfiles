@@ -1,0 +1,31 @@
+! Sign-in with google
+||accounts.google.com/gsi/*$xhr,script,3p
+
+! 2024-04-10 https://www.reddit.com - Sign in with Google
+||accounts.google.com/gsi/iframe/select$subdocument
+
+! Dec 15, 2024 https://www.linkedin.com
+www.linkedin.com##.cnuthtgw.cnuththc.cnutht14.cnutht180.cnuthtdk.cnuthtaw > .cnuthtgw.cnuththc.cnutht14.cnutht180.cnuthtdk.cnuthtaw
+www.linkedin.com##.cnuthtao > .cnuthtj4.cnuthtdk.cnuthtaw > section._1xoe5hd3.cnutht1gg._139m7k23._85ptzzr.h8e4ml5i
+
+! Jan 18, 2025 https://www.reddit.com
+www.reddit.com###credential_picker_container
+
+! Jun 13, 2025 https://mail.google.com - "Upgrade" button in bottom left
+mail.google.com##.I6agWe
+
+! Jun 14, 2025 https://www.google.com
+www.google.com##.hdzaWe
+www.google.com##.olrp5b
+
+! Aug 30, 2025 https://www.canva.com
+www.canva.com###credential_picker_container
+
+! Sep 13, 2025 https://meet.google.com
+meet.google.com##.G03iKb.Didmac.ZmuLbd.fJsklc
+
+! Oct 4, 2025 https://support.system76.com
+support.system76.com##.sys-header-U6nZ
+
+! Jan 11, 2026 https://www.linkedin.com
+www.linkedin.com##._96ab7864._17943a0d._528d5339.c67a4f8b._50293d6d > ._6a6a27fc.b7ca1f63._951ee4c0.bb24142d.f38e4fd6
