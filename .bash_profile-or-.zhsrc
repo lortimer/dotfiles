@@ -2,12 +2,16 @@
 
 ## History
 
-### for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+### Bash
 HISTSIZE=100000
 HISTFILESIZE=100000
-
-### Write to bash_history after each command
 export PROMPT_COMMAND='history -a'
+
+### Zsh
+HISTFILE=.zhistory
+SAVEHIST=100000   
+setopt APPEND_HISTORY
+setopt share_history 
 
 ## Terminal
 alias x='tput reset'
