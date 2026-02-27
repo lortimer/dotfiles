@@ -11,7 +11,8 @@ export PROMPT_COMMAND='history -a'
 HISTFILE=.zhistory
 SAVEHIST=100000   
 setopt APPEND_HISTORY
-setopt share_history 
+setopt share_history
+setopt HIST_IGNORE_SPACE # don't put in history commands that start with a space
 
 ## Terminal
 alias x='tput reset'
