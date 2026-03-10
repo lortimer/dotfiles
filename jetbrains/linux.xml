@@ -1,4 +1,4 @@
-<keymap version="1" name="Ryan">
+<keymap version="1" name="Ryan" parent="Default for GNOME">
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Group.Condition.Move.Down" />
