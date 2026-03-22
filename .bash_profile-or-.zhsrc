@@ -8,7 +8,7 @@ HISTFILESIZE=100000
 export PROMPT_COMMAND='history -a'
 
 ### Zsh
-HISTFILE=.zhistory
+HISTFILE=~/.zhistory
 SAVEHIST=100000   
 setopt APPEND_HISTORY
 setopt share_history
