@@ -1,4 +1,5 @@
 [alias]
         lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
-        lot = git log --graph --decorate --pretty=oneline --abbrev-commit <main branch>..
+        lot = log --graph --decorate --pretty=oneline --abbrev-commit <main branch>..
+        w = switch
