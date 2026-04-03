@@ -3,3 +3,4 @@
         lol = log --graph --decorate --pretty=oneline --abbrev-commit
         lot = log --graph --decorate --pretty=oneline --abbrev-commit <main branch>..
         w = switch
+        undo = reset --soft HEAD~1
